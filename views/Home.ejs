@@ -1,0 +1,14 @@
+<%- include('partials/header') %>
+<h1>Home</h1>
+
+<p><%= content %></p>
+
+<% for(let post of postsar){ %>
+    <% var l= "/posts/"+post.title; %>
+    <h1><%= post.title %></h1>
+    <span class="readmore"><p class="truncated"><%= post.description%> ... </p><a href="/posts/<%= post._id %>" >Read more</a></span>
+    
+<% }; %>
+
+
+<%- include('partials/footer') %>

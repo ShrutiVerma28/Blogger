@@ -1,0 +1,59 @@
+html,body{
+    min-height: 100%;
+}
+
+body{
+    margin: auto;
+    text-align: left;
+    height: 100vh;
+}
+.container-fluid {
+    margin-left: 4rem;
+}
+div.container{
+    margin-top: 30px;
+    height: 100vh;
+}
+h1{
+    font-weight: 600;
+}
+.container2 {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+    margin-left: 44%;
+}
+.text-muted{
+    text-align: center;
+}
+footer.footer.mt-auto.py-3 {
+    background-color: aquamarine;
+}
+input[type='text']{
+    height: 40px;
+}
+button.btn.btn-info{
+    vertical-align: baseline;
+    color: white;
+    font-weight: 650;
+}
+label.form-label {
+    font-weight: 650;
+}
+form {
+    text-align: left;
+    margin-top: 40px;
+}
+textarea.form-control {
+    min-height: 120px;
+}
+.truncated {
+    overflow: hidden;
+    display: block;
+    width: min-content;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.readmore{
+    display: flex;
+}
