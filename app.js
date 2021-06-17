@@ -97,5 +97,5 @@ app.get("/posts/:postid", function(req,res){
 
 
 app.listen(process.env.port || 3000 ,function(){
-    console.log('The server is starting on port 3000!!!');
+    console.log('The server has started!!!');
 })
