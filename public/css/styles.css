@@ -241,7 +241,7 @@ a.nav-link:hover{
     padding-right: 6px;
 }
 
-@media screen  and (max-width: 360px){
+@media screen  and (max-width: 412px){
     .a2-todo{
         text-decoration: none;
         background-color: lightpink;
@@ -251,6 +251,13 @@ a.nav-link:hover{
     }
 
     .h2todo{
-        left: 23%;
+        left: 27%;
+    }
+}
+@media screen  and (max-width: 360px){
+    
+
+    .h2todo{
+        left: 25%;
     }
 }
