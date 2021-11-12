@@ -8,9 +8,6 @@
 	<form action="/todo" method="POST" id="form-todo"><input class="input-todo" type="text" name="todo" placeholder="Add New Todo"></form>
 
 	<ul class="ul-todo">
-		<li class="li-todo"><span class="span-todo"><a><i class="fa fa-trash"></i></a></span> Go To Potions Class</li>
-		<li class="li-todo"><span class="span-todo"><a><i class="fa fa-trash"></i></a></span> Buy New Robes</li>
-		<li class="li-todo"><span class="span-todo"><a><i class="fa fa-trash"></i></a></span> Visit Hagrid</li>
 		<% for(let todo of todos){ %>
 			<li class="li-todo"><span class="span-todo"><a class="a-todo-id" data-method="DELETE" href = "/todo/<%= todo._id %>"><i class="fa fa-trash"></i></a></span><%= todo.todo %></li>
 		<% }; %>
